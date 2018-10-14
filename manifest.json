@@ -1,0 +1,20 @@
+{
+  "name": "generatePass",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Create password with your own rules",
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup" : "index.html"
+  },
+  "icons" : {
+    "16"  : "images/icon-16.png",
+    "48"  : "images/icon-48.png",
+    "128" : "images/icon-128.png"
+  },
+  "permissions": [
+	"tabs",
+	"clipboardWrite",
+	"clipboardRead"
+  ]
+}
